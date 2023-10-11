@@ -16,3 +16,9 @@ sed secrete <<< crop    # secret crop top
 sed severe <<< visible  # sever visible risible  
 Here are similar case, leading to command execution  
 sed starlette <<< parles        # One way to execute 'ps'  
+sed stilette <<< piles	# ANtoher way to execute 'ps'
+sed s#.*#\&#ew# #we#&/#*.#s des
+
+## Encoding
+$(ls -d)                # One way (among many) to obtain a "." when it is forbidden
+ping 127$(ls -d)1
