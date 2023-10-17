@@ -25,6 +25,7 @@ Poor man's command interpreter:
 ``ping 127$(ls -d)1``                   # One example of using encoded "."  
 
 ## How to ping yourself?
+<pre>
 ping 127.1  
 ping 0x7f.1  
 ping 127.0.1  
@@ -40,11 +41,14 @@ ping 0x7F.127.0127001
 ping 0177.070.070.0177  
 ping 0x7F.01000010.0xF7  
 ping 0177.0177.0177.0177  
+</pre>
 
 ## How to ping yourself with palindroms?
+<pre>
 ping 127.721  
 ping 127.1.721  
 ping 127.0x0.721  
 ping 017710017710  
 ping 0177.171.7710  
 ping 0177.0110.7710  
+</pre>
