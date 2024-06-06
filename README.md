@@ -21,9 +21,9 @@ Poor man's command interpreter:
 ``sed s#.*#\&#ew# #we#&/#*.#s des``     # Oh wait, is this also a palindrom?!  
 
 ## Catastrophic RegEx
-``grep '\(.*\)\(.*\)\(\1\|\2*\)*'``     # Just launch and wait, no input needed. 
-``grep '\(\(stack\)*\)\(\(overflow\)*\)\(\1*\|\3*\)*'``            # Variant. 
-``for I in {0..63}; do (grep '\(.*\)\(.*\)\(\1\|\2*\)*' &) done``  # Burn CPU and RAM. 
+``grep '\(.*\)\(.*\)\(\1\|\2*\)*'``     # Just launch and wait, no input needed.  
+``grep '\(\(stack\)*\)\(\(overflow\)*\)\(\1*\|\3*\)*'``            # Variant.  
+``for I in {0..63}; do (grep '\(.*\)\(.*\)\(\1\|\2*\)*' &) done``  # Burn CPU and RAM.  
 
 ## Encoding
 ``$(ls -d)``                            # One way among many to get a "." when it is forbidden.  
