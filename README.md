@@ -4,6 +4,7 @@
 Here are terms that, once encoded in base64, mean something (in leet speak).  
 ``echo -n " :'OAw4CB81>mK~Xq' :5N.B,@+LLm" | base64``  
 ``echo -n 'h+bV+&!*hy4X' | base64``  
+![](https://github.com/olivier-heen/d1g1tal-p03try/blob/main/I-dont-often-encode.jpeg)
 
 ## Crypt
 Here are password hashes that contain identifiable text parts:  
