@@ -1,1 +1,1 @@
-sleep 8
+get status
