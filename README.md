@@ -23,7 +23,8 @@ Poor man's command interpreter:
 
 ## Catastrophic RegEx
 ``grep '\(.*\)\(.*\)\(\1\|\2*\)*'``     # Just launch and wait, no input needed.  
-``grep '\(\(stack\)*\)\(\(overflow\)*\)\(\1*\|\3*\)*'``            # Variant.  
+``grep '\(\(stack\)*\)\(\(overflow\)*\)\(\1*\|\3*\)*'``            # Variant.
+``grep -E '((stack)*)((overflow)*)(\1*|\3*)*'``                    # Using extended regex.
 ``for I in {0..63}; do (grep '\(.*\)\(.*\)\(\1\|\2*\)*' &) done``  # Burn CPU and RAM.  
 
 ## Encoding
@@ -58,3 +59,7 @@ ping 017710017710
 ping 0177.171.7710  
 ping 0177.0110.7710  
 </pre>
+
+## Misc
+https://www.metallurgeek.fr/2012/12/liste-trous-en-python.html
+https://www.metallurgeek.fr/2026/01/chaussettes-et-batraciens.html
