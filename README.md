@@ -61,5 +61,5 @@ ping 0177.0110.7710
 </pre>
 
 ## Misc
-https://www.metallurgeek.fr/2012/12/liste-trous-en-python.html
+https://www.metallurgeek.fr/2012/12/liste-trous-en-python.html  
 https://www.metallurgeek.fr/2026/01/chaussettes-et-batraciens.html
